@@ -7,7 +7,10 @@ import { useState } from "react";
 function Navbar() {
   const [click, setClick] = useState(false);
   return (
-    <nav className="w-full bg-white fixed top-0 left-0 right-0 z-10 shadow-md">
+    <nav
+      id="top"
+      className="w-full bg-white fixed top-0 left-0 right-0 z-10 shadow-md"
+    >
       <div className="md:flex md:justify-between md:items-center md:w-[90%] md:mx-auto">
         <div className="flex justify-between items-center px-5 py-5">
           {/* logo */}
